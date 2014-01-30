@@ -5,6 +5,7 @@
   <title><%= title %></title>
 
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<%= asset_path 'layout.css' %>">
 
   <link rel="alternate" type="application/atom+xml" href="http://blog.io/feed" />
@@ -26,8 +27,14 @@
   <header class="header">
     <nav class="wrap">
       <h1 class="logo">
-        <a class="blog" href="/">blog</a>
+        <a class="blog" href="/">
+          <img src="http://www.simplegolftour.com/assets/logo.png" alt="Simple Golftour Blog" />
+        </a>
       </h1>
+      <a href="http://simplegolftour.com">
+        Compete with friends in golf with <strong>Simple Golftour</strong>
+        <i class="fa fa-chevron-right"></i>
+      </a>
     </nav>
   </header>
 
@@ -37,6 +44,15 @@
 
   <footer class="footer">
     <%== yield_content :footer %>
+
+    <section>
+      <div class="wrap">
+        <a href="http://simplegolftour.com" class="button">
+          Compete with friends in golf with <strong>Simple Golftour</strong>
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </div>
+    </section>
   </footer>
 </body>
 </html>

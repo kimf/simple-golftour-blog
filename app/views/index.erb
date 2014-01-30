@@ -1,10 +1,6 @@
 <% @posts.each do |post| %>
   <section class="post <%= post.slug %>">
     <header>
-      <h2>
-        <a href="/<%= post.slug %>"><%= post.title %></a>
-      </h2>
-
       <% if post.date %>
         <time datatime="<%= post.date.to_s %>">
           <a href="/<%= post.slug %>">
@@ -18,6 +14,10 @@
           by <%= post.author %>
         </h3>
       <% end %>
+
+      <h2>
+        <a href="/<%= post.slug %>"><%= post.title %></a>
+      </h2>
     </header>
 
     <div class="body">

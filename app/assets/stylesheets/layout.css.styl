@@ -2,6 +2,7 @@
 //= require_self
 //= require_tree .
 
+
 @import './mixins'
 
 *, *:before, *:after {
@@ -19,12 +20,16 @@ body {
   background: #FFF
 
   color: #444
-  font: 19px/1.5em "proxima-nova", "OpenSans", "HelveticaNeue", Helvetica, Arial, sans-serif
+  font: 19px/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 a {
   text-decoration: underline
   color: #4b525b
+}
+
+h2, h3, h4 {
+  color: #333
 }
 
 // Site specific
@@ -34,32 +39,50 @@ a {
 }
 
 header.header {
-  overflow: hidden
-  font-family: "Open Sans", sans-serif
   font-size: 18px
   font-weight: 600
   user-select: none
+  background: #1b8ad4
+  height: 60px
 
   a {
     text-decoration: none
+    float: right
+    color: #fff
+    font-weight: normal
+    font-size: 0.9rem
+
+    &:hover {
+      margin-top: -4px
+      border-bottom: 1px solid #eee
+    }
   }
 
   nav {
-    height: 40px
-    line-height: 70px
+    height: 80px
     margin: auto
     padding: 0 15px
 
     h1.logo {
-      float: left
       margin: 0
-      font-size: 22px
+      float: left
+      position: relative
+      margin-top: -30px
+      img {
+        height: 89px
+      }
     }
   }
 }
 
 article.main {
   padding: 15px
+  margin-top: 60px
+
+  h3 {
+    font-family: 'Roboto Slab'
+    font-weight: 400
+  }
 
   section {
     position: relative
@@ -68,13 +91,14 @@ article.main {
 
     header {
       margin-bottom: 25px
+      border-bottom: 1px solid #eee
 
       h2 {
-        font-weight: 600
         font-size: 30px
-        margin: 0 0 6px 0
-        font-family: "Open Sans", sans-serif
+        margin:  6px 0
         line-height: 35px
+        font-family: 'Roboto Slab'
+        font-weight: 900
 
         a {
           text-decoration: none
@@ -90,14 +114,14 @@ article.main {
 
       h3.author {
         margin: 0
-        color: #6A6A6A
+        color: #414141
         font-weight: normal
         font-style: italic
         font-size: 15px
         display: inline
 
         a {
-          color: #6A6A6A
+          color: #414141
           text-decoration: none
         }
       }
@@ -140,16 +164,19 @@ article.main {
       a {
         text-decoration: none
         font-weight: 600
+        color: #6da9d4
         border-bottom: 2px solid #F4F4F4
       }
 
       a:hover {
         text-decoration: none
-        border-bottom: 2px solid #DDDDDD
+        border-bottom: 2px solid #d4d4d4
+        color: #1b8ad4
       }
 
       b, strong {
         font-weight: 600
+        color: #333
       }
 
       p {
@@ -275,8 +302,9 @@ article.main {
 
 footer.footer {
   margin-top: 40px
+  text-align: center
 
-  border-bottom: 20px solid #3498DB
+  border-bottom: 20px solid #1b8ad4
 
   section {
     border-top: 1px solid #F2F2F2
@@ -299,11 +327,12 @@ footer.footer {
     .wrap {
       padding: 20px 40px 25px 30px
     }
+  }
 
-    .button {
-      border: 2px solid #333333
+   .button {
+      border: 2px solid #ccc
       font-weight: 600
-      color: #333333
+      color: #777
       padding: 0 15px
       border-radius: 20px
       display: inline-block
@@ -317,8 +346,13 @@ footer.footer {
       .fa {
         margin-left: 2px
       }
+
+      &:hover {
+        color: #fff
+        border: 2px solid #fff
+        background: #1b8ad4
+      }
     }
-  }
 }
 
 @media only all and (min-width: 650px) {
