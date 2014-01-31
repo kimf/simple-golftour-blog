@@ -43,11 +43,10 @@ header.header {
   font-weight: 600
   user-select: none
   background: #1b8ad4
-  height: 60px
+  height: 80px
 
   a {
     text-decoration: none
-    float: right
     color: #fff
     font-weight: normal
     font-size: 0.9rem
@@ -56,18 +55,23 @@ header.header {
       margin-top: -4px
       border-bottom: 1px solid #eee
     }
+
+    &.link {
+      display: none;
+    }
   }
 
   nav {
     height: 80px
     margin: auto
     padding: 0 15px
+    text-align: center
+    position: relative
 
     h1.logo {
       margin: 0
-      float: left
       position: relative
-      margin-top: -30px
+      top: 22px
       img {
         height: 89px
       }
@@ -195,16 +199,6 @@ article.main {
         margin: 0 0 10.5px 0
       }
 
-      img {
-        display: block
-        border: 3px solid #F6F6F6
-        margin: 1em 0
-
-        &.center {
-          margin: 1em auto
-        }
-      }
-
       blockquote {
         border-left: 5px solid #F6F6F6
         margin: 2em 20px
@@ -300,6 +294,34 @@ article.main {
   }
 }
 
+.screencast {
+  position: relative;
+
+  img {
+    width: 100%    !important;
+    height: auto   !important;
+    cursor: pointer;
+  }
+
+  video {
+    width: 100%    !important;
+    height: auto   !important;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    display: none;
+
+    &.playing {
+      display: block;
+    }
+  }
+}
+
+
 #disqus_thread {
   margin-top: 20px
   border-top: 2px solid #eee
@@ -362,9 +384,23 @@ footer.footer {
 }
 
 @media only all and (min-width: 650px) {
+
   header.header {
+
+    a {
+      &.link {
+        display: block
+        position: absolute
+        bottom: 12px
+        right: 20px
+      }
+    }
+
     nav {
-      padding: 30px
+      text-align: left
+
+      h1.logo {
+      }
     }
   }
 

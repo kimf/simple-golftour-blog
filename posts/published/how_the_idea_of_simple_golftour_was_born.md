@@ -15,7 +15,15 @@ All we wanted was a way too keep track of who was gonna buy dinner at the end of
 
 In the beginning of last season I started building what is now [Simple Golftour](http://www.simplegolftour.com "Simple Golftour") for my group of friends. So far it has served our needs perfectly and this is what it looks like:
 
-![Tisdagsgolfen Leaderboard & Profile](https://s3-eu-west-1.amazonaws.com/kimfransman/tisdagsgolfen_leaderboard.png)
+
+<div class='screencast peep'>
+  <img alt="Play" src="https://s3-eu-west-1.amazonaws.com/kimfransman/placeholder.png" />
+  <video preload='auto'>
+    <source src='https://s3-eu-west-1.amazonaws.com/kimfransman/feature_tour.mp4' type='video/mp4'>
+    <source src='https://s3-eu-west-1.amazonaws.com/kimfransman/feature_tour.ogv' type='video/ogv'>
+    <source src='https://s3-eu-west-1.amazonaws.com/kimfransman/feature_tour.webm' type='video/webm'>
+  </video>
+</div>
 <small>*Leaderboard and my profile page*</small>
 
 If you want to browse around, and look at how bad my golfgame really is, I made the page for our tour [Tisdagsgolfen](http://tisdagsgolfen.fransman.se "Tisdagsgolfen") public. It is in swedish, but I think you will get the gist.
