@@ -13,7 +13,7 @@ All we wanted was a way too keep track of who was gonna buy dinner at the end of
 
 ###Where are we now?
 
-In the beginning of last season I started building what is now [Simple Golftour](http://www.simplegolftour.com "Simple Golftour") for my group of friends. So far it has served our needs perfectly and this is what it looks like:
+In the beginning of last season I started building what is now [Simple Golftour](http://www.simplegolftour.com?utm_source=article_summary "Simple Golftour") for my group of friends. So far it has served our needs perfectly and this is what it looks like:
 
 
 <div class='screencast peep'>
@@ -35,6 +35,6 @@ If you want to browse around, and look at how bad my golfgame really is, I made 
 3. All the members of your tours will get a notification about your round, the leaderboard(s) will be updated and you hopefully get braggingrights. Atleast until someone else takes over the top spot.
 
 
-If you want to get notifications on how the work is going, please leave your email at [http://www.simplegolftour.com](http://www.simplegolftour.com "Simple Golftour"), and if you have any tips, questions or just want to tell me I'm stupid, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
+If you want to get notifications on how the work is going, please leave your email at [http://www.simplegolftour.com](http://www.simplegolftour.com?utm_source=article_wrap "Simple Golftour"), and if you have any tips, questions or just want to tell me I'm stupid, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
 
 **Happy Golfing**,<br />Kim
