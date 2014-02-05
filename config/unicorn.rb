@@ -1,3 +1,4 @@
+#this is not used on digitalocean! :)
 worker_processes Integer(ENV['UNICORN_WORKERS'] || 4)
 timeout 30
 preload_app true
