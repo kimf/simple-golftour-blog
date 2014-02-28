@@ -25,6 +25,7 @@ gem 'eco'
 gem 'json'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
 gem 'thin'
+gem 'tux'
 
 group :development do
   gem 'debugger', require: 'ruby-debug'
