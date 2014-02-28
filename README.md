@@ -16,4 +16,3 @@ Good examples of the following:
 
 Demo here http://sinatra-example-blog.herokuapp.com
 
-PS.. Deployed via GIT!
