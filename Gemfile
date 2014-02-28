@@ -24,9 +24,9 @@ gem 'stylus-source'
 gem 'eco'
 gem 'json'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
+gem 'thin'
 
 group :development do
-  gem 'thin'
   gem 'debugger', require: 'ruby-debug'
   gem 'git-deploy'
 end
