@@ -1,5 +1,7 @@
 ## Sinatra Example Blog
 
+ - some mods
+
 This is a good example of structuring a Sinatra app.
 Feel free to clone it, browse the source, customize it
 and use it as your own blog.
