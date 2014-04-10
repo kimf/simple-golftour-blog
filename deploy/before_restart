@@ -5,7 +5,9 @@ def run(cmd)
   exit($?.exitstatus) unless system "umask 002 && #{cmd}"
 end
 
-RAILS_ENV   = ENV['RAILS_ENV'] || 'production'
+RACK_ENV   = ENV['RACK_ENV'] || 'production'
+RAILS_ENV  = RACK_ENV
+
 use_bundler = File.file? 'Gemfile'
 rake_cmd    = use_bundler ? 'bundle exec rake' : 'rake'
 
@@ -30,8 +32,8 @@ if File.file? 'Rakefile'
   tasks << "assets:precompile" if changed_assets.size > 0
 
   if tasks.any?
-    puts "RUNNING #{rake_cmd} #{tasks.join(' ')} RAILS_ENV=#{RAILS_ENV}"
-    run "#{rake_cmd} #{tasks.join(' ')} RAILS_ENV=#{RAILS_ENV}"
+    puts "RUNNING #{rake_cmd} #{tasks.join(' ')} RACK_ENV=#{RACK_ENV}"
+    run "#{rake_cmd} #{tasks.join(' ')} RACK_ENV=#{RACK_ENV}"
   end
 end
 
