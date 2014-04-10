@@ -1,5 +1,6 @@
 require 'sprockets'
 require 'stylus/sprockets'
+require 'sprockets/cache/memcache_store'
 
 module Blog
   module Extensions
