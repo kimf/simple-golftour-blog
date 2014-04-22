@@ -2,7 +2,7 @@ module Blog
   module Helpers
     def title
       value = yield_content(:title)
-      value.blank? ? 'Blog' : value
+      value.blank? ? 'Simple Golftour Blog | Golf league software' : value
     end
 
     def url
