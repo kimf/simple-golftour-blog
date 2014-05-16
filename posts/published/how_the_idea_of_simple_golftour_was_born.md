@@ -26,7 +26,7 @@ In the beginning of last season I started building what is now [Simple Golftour]
 </div>
 <small>*Leaderboard and my profile page*</small>
 
-If you want to browse around, and look at how bad my golfgame really is, I made the page for our tour [Tisdagsgolfen](http://tisdagsgolfen.fransman.se "Tisdagsgolfen") public. It is in swedish, but I think you will get the gist.
+If you want to browse around, and look at how bad my golfgame really is, I made the page for our tour [Tisdagsgolfen](http://2013.tisdagsgolfen.se "Tisdagsgolfen") public. It is in swedish, but I think you will get the gist.
 
 ###How it works
 
