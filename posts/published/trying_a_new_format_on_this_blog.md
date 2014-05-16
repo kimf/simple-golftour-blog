@@ -1,5 +1,5 @@
 <% title 'Trying a new format with this blog' %>
-<% date '16th May 2014' %>
+<% date '15th May 2014' %>
 <% author 'Kim Fransman' %>
 
 I've not been writing here nearly as often as I would like and I've been thinking about how to change that. As I read of alot of blogs every day, it finally hit me: the ones I visit often are the ones that are brutally transparent, posts atleast once a week and keeps their posts short.
