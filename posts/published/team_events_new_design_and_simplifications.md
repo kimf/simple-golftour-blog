@@ -31,3 +31,6 @@ So without further ado, here is the new Team event functionality in all it's glo
 If you have any questions or just want to chat, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
 
 **Forget the bogeys, enjoy the sun**,<br />Kim
+<br />
+<hr />
+<a href="http://www.bloglovin.com/blog/12363875/?claim=gqbme6vq89k">Follow my blog with Bloglovin</a>
