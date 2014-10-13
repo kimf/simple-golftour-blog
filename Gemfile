@@ -27,6 +27,11 @@ gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
 gem 'thin'
 gem 'tux'
 
+group :production do
+  gem 'execjs'
+  gem 'therubyracer'
+end
+
 group :development do
   gem 'byebug'
   gem 'git-deploy'
