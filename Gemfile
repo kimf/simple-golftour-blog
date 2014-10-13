@@ -26,6 +26,7 @@ gem 'json'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
 gem 'thin'
 gem 'tux'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'byebug'
