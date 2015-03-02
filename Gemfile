@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.3'
+ruby '2.1.5'
 
 gem 'sinatra', require: 'sinatra/base'
 gem 'unicorn'
@@ -26,7 +26,6 @@ gem 'json'
 gem 'sinatra-contrib', github: 'maccman/sinatra-contrib'
 gem 'thin'
 gem 'tux'
-gem 'newrelic_rpm'
 
 group :development do
   gem 'byebug'
