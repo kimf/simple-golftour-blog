@@ -11,6 +11,6 @@ So, from this day on, expect short, transparent posts about what changes are bei
 
 See it like a diary of my work on Simple Golftour. Growth hacking, code snippets, gifs of interface changes and more.
 
-PS. Go and [sign up to create your own simple golftour](http://www.simplegolftour.com?utm_source=article_wrap "Simple Golftour"), and if you have any tips, questions or just want to talk golf, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
+PS. Go and [sign up to create your own simple golftour](https://www.simplegolftour.com?utm_source=article_wrap "Simple Golftour"), and if you have any tips, questions or just want to talk golf, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
 
 **Let the birdies rain on you**,<br />Kim

@@ -33,6 +33,6 @@ We did begin this venture after being frightened away by all the not so simple <
 
 <hr />
 **PS**
-We are closing in on our initial launch, so please leave your email at [http://www.simplegolftour.com](http://www.simplegolftour.com?utm_source=article_wrap "Simple Golftour"), and if you have any tips, questions or just want to tell me I'm stupid, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
+We are closing in on our initial launch, so please leave your email at [https://www.simplegolftour.com](https://www.simplegolftour.com?utm_source=article_wrap "Simple Golftour"), and if you have any tips, questions or just want to tell me I'm stupid, drop me a line at [kim@simplegolftour.com](mailto:kim@simplegolftour.com "Kim Fransman")
 
 **Happy Birdie-hunting**,<br />Kim
